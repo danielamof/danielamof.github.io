@@ -1,3 +1,20 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: "Edulíticas | Analítica del Aprendizaje – Learning Analytics"
+description: "Blog sobre analítica del aprendizaje, visualización de datos y experiencias docentes."
+author: "Daniel Amo Filvà"
+url: "https://eduliticas.com"   # el teu domini
+baseurl: ""                    # deixa-ho buit si està a l’arrel
+
+theme: minima   # pots canviar a un altre tema jekyll si vols més personalització
+
+# Enllaços de navegació
+header_pages:
+  - descargar.md   # aquest serà el nou enllaç
+
+# Social links (opcional)
+twitter_username: @danielamof
+github_username:  eduliticas
+
+# Plugins comuns a GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
