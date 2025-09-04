@@ -1,3 +1,26 @@
+title: "Edulíticas | Analítica del Aprendizaje – escrito por Daniel Amo Filvà (@danielamof)"
+description: "Todo el contenido de eduliticas.com disponible en un único PDF"
+author: "Daniel Amo Filvà"
+url: "https://eduliticas.com"
+baseurl: ""   # deixa-ho buit si la web està a l’arrel del domini
+
 theme: minima
-title: Eduliticas
-description: En breve todo el contneido de eduliticas.com descargable en PDF.
+
+plugins:
+  - jekyll-seo-tag
+
+# Definició del contingut directament al _config.yml
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      permalink: "/"
+      title: "Edulíticas en reposo"
+      content: |
+        Ha llegado el momento de poner el proyecto **eduliticas.com** en reposo.  
+        Todo el contenido del blog se ha comprimido en un único archivo PDF,  
+        que puedes descargar en el siguiente enlace:
+
+        [📥 Descargar eduliticas.pdf](/Eduliticas_Un_espacio_sobre_analitica_del_aprendizaje_compressed.pdf)
