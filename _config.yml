@@ -2,14 +2,10 @@ title: "Edulíticas | Analítica del Aprendizaje – escrito por Daniel Amo Filv
 description: "Todo el contenido de eduliticas.com disponible en un único PDF"
 author: "Daniel Amo Filvà"
 url: "https://eduliticas.com"
-baseurl: ""   # deixa-ho buit si la web està a l’arrel del domini
+baseurl: "" 
 
 theme: minima
 
-plugins:
-  - jekyll-seo-tag
-
-# Definició del contingut directament al _config.yml
 defaults:
   - scope:
       path: ""
@@ -23,4 +19,4 @@ defaults:
         Todo el contenido del blog se ha comprimido en un único archivo PDF,  
         que puedes descargar en el siguiente enlace:
 
-        [📥 Descargar eduliticas.pdf](/Eduliticas_Un_espacio_sobre_analitica_del_aprendizaje_compressed.pdf)
+        [📥 Descargar todo el contenido de eduliticas.com](/Eduliticas_Un_espacio_sobre_analitica_del_aprendizaje_compressed.pdf)
