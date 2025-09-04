@@ -30,10 +30,38 @@
       color: #444;
     }
     p {
-      max-width: 600px;
-      margin: 20px auto;
-      line-height: 1.6;
+      margin-bottom: 20px;
+      font-size: 1.1em;
     }
+    /* Enllaços generals */
+a {
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, background 0.3s;
+}
+
+/* Estil per a X (Twitter) */
+a.x-link {
+  color: #1DA1F2; /* Blau oficial X/Twitter */
+}
+a.x-link:hover {
+  color: white;
+  background: #1DA1F2;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+/* Estil per a LinkedIn */
+a.linkedin-link {
+  color: #0077B5; /* Blau oficial LinkedIn */
+}
+a.linkedin-link:hover {
+  color: white;
+  background: #0077B5;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+    
     a.download-btn {
       display: inline-block;
       background: #2d8a4a;
@@ -54,16 +82,22 @@
     <!-- Aquí podries afegir el logotip com a imatge -->
     <img src="/assets/logo.png" alt="eduliticas.com logo">
     <h1>Edulíticas | Analítica del aprendizaje</h1>
-    <h2>Daniel Amo Filvà (<a href="https://x.com/danielamof" target="_blank">X</a> | <a href="https://es.linkedin.com/in/daniel-amo-filva" target="_blank">Linkedin</a> )</h2>
+    <h2>Daniel Amo Filvà (<a href="https://x.com/danielamof" class="x-link" target="_blank">X</a> | <a href="https://es.linkedin.com/in/daniel-amo-filva" class="linkedin-link" target="_blank">Linkedin</a> )</h2>
   </header>
 
   <main>
-    <p>
-      Ha llegado el momento de poner el proyecto <strong>eduliticas.com</strong> en reposo y abrir nuevos horizontes.
-Este viaje me ha permitido aprender, compartir y crecer tanto a nivel personal como profesional. Nada de ello habría sido posible sin todas las personas que me habéis acompañado en el camino: gracias por vuestro apoyo, ideas, críticas constructivas y compañía en este proyecto.
-Cierro esta etapa con gratitud y con la ilusión de todo lo que está por venir. 🚀
-      <strong>Todo el contenido del blog</strong> lo puedes descargar en PDF desde el siguiente enlace:
-    </p>
+ <p>
+    Ha llegado el momento de poner el proyecto <strong>eduliticas.com</strong> en reposo y abrir nuevos horizontes.  
+    Este viaje me ha permitido aprender, compartir y crecer tanto a nivel personal como profesional.  
+    Nada de ello habría sido posible sin todas las personas que me habéis acompañado en el camino: gracias por vuestro apoyo, ideas, críticas constructivas y compañía en este proyecto.  
+  </p>
+
+  <p>
+    Cierro esta etapa con gratitud y con la ilusión de todo lo que está por venir. 🚀 
+  </p>
+  <p>
+    <strong>Todo el contenido del blog</strong> lo puedes descargar en PDF desde el siguiente enlace:
+  </p>
 
     <p>
       <a href="/Eduliticas_Un_espacio_sobre_analitica_del_aprendizaje_compressed.pdf" 
