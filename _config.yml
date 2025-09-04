@@ -1,17 +1,3 @@
-title: "Edulíticas | Analítica del Aprendizaje – Learning Analytics"
-description: "Blog sobre analítica del aprendizaje, visualización de datos y experiencias docentes."
-author: "Daniel Amo Filvà"
-url: "https://eduliticas.com"
-baseurl: ""
-
-theme: minima
-
-header_pages:
-  - descargar.md
-
-twitter_username: @danielamof
-github_username:  danielamof
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+theme: jekyll-theme-minimal
+title: Eduliticas
+description: [📥 Descargar contenido de eduliticas.com](/Eduliticas_Un_espacio_sobre_analitica_del_aprendizaje_compressed.pdf)
