@@ -1,20 +1,17 @@
 title: "Edulíticas | Analítica del Aprendizaje – Learning Analytics"
 description: "Blog sobre analítica del aprendizaje, visualización de datos y experiencias docentes."
 author: "Daniel Amo Filvà"
-url: "https://eduliticas.com"   # el teu domini
-baseurl: ""                    # deixa-ho buit si està a l’arrel
+url: "https://eduliticas.com"
+baseurl: ""
 
-theme: minima   # pots canviar a un altre tema jekyll si vols més personalització
+theme: minima
 
-# Enllaços de navegació
 header_pages:
-  - descargar.md   # aquest serà el nou enllaç
+  - descargar.md
 
-# Social links (opcional)
 twitter_username: @danielamof
-github_username:  eduliticas
+github_username:  danielamof
 
-# Plugins comuns a GitHub Pages
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
