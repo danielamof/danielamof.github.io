@@ -1,7 +1,7 @@
 title: "Edulíticas | Analítica del Aprendizaje – Learning Analytics"
 description: "Blog sobre analítica del aprendizaje, visualización de datos y experiencias docentes."
 author: "Daniel Amo Filvà"
-url: "https://eduliticas.com"   # el teu domini
+#url: "https://eduliticas.com"   # el teu domini
 baseurl: ""                    # deixa-ho buit si està a l’arrel
 
 theme: minima   # pots canviar a un altre tema jekyll si vols més personalització
